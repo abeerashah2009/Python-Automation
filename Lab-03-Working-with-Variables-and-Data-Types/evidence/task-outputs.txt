@@ -1,0 +1,31 @@
+LAB 3 - WORKING WITH VARIABLES AND DATA TYPES
+=============================================
+
+Python version:
+Python 3.12.3
+
+Variable values and data types:
+10
+20.5
+Hello, World!
+True
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+10.0
+<class 'float'>
+20.5
+<class 'str'>
+15
+<class 'int'>
+1
+
+Invalid conversion test:
+ValueError: invalid literal for int() with base 10: 'abc'
+
+Syntax verification:
+Syntax check passed
+
+Boolean type verification:
+bool type found
