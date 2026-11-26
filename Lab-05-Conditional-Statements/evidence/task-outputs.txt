@@ -1,0 +1,20 @@
+LAB 5 - CONDITIONAL STATEMENTS
+================================
+
+Python version:
+Python 3.12.3
+
+Task 1 - if and else:
+10 20: Number 2 is larger
+30 20: Number 1 is larger
+
+Task 2 - elif equal case:
+Both numbers are equal
+
+Task 3 - Comprehensive tests:
+Number 1 is larger
+Number 2 is larger
+Both numbers are equal
+
+Python syntax check:
+Syntax check passed
