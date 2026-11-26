@@ -9,7 +9,7 @@ TASK 1 - CREATE AND WRITE
 Command:
 python3 file_io.py
 
-File content:
+Output:
 Hello, World!
 This is a test of file I/O.
 
@@ -20,7 +20,7 @@ Line count:
 TASK 2 - APPEND TEXT
 ================================
 
-File content:
+Output:
 Hello, World!
 This is a test of file I/O.
 Appending new text.

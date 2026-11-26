@@ -185,5 +185,5 @@ I practiced creating files, writing text, appending additional content, and read
 
 These operations provide a foundation for data storage, file management, and Python automation.
 
-**Lab:** 11 – File I/O Basics  
+**Lab:** 11 – File I/O Basics
 **Status:** Practical tasks completed and verified.
