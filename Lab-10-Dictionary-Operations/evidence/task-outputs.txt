@@ -1,0 +1,48 @@
+LAB 10 - DICTIONARY OPERATIONS
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - CREATE A DICTIONARY
+================================
+
+Command:
+python3 dict_ops.py
+
+Output:
+Created: {'name': 'Alice', 'age': 30, 'city': 'New York'}
+
+================================
+TASK 2 - RETRIEVE A VALUE BY KEY
+================================
+
+Operation:
+name_value = person_info['name']
+
+Output:
+Name: Alice
+
+================================
+TASK 3 - UPDATE AND ADD KEY-VALUE PAIRS
+================================
+
+Operations:
+1. Update age from 30 to 31.
+2. Add occupation = Engineer.
+
+Output:
+Updated Dictionary: {'name': 'Alice', 'age': 31, 'city': 'New York', 'occupation': 'Engineer'}
+Checks passed
+
+================================
+VERIFICATION
+================================
+
+Dictionary creation: PASS
+Value retrieval: PASS
+Age update: PASS
+New key-value addition: PASS
+Assertion verification: PASS
+
+Result:
+All three practical tasks completed successfully.
