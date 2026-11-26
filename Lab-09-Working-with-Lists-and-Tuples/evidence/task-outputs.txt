@@ -1,0 +1,45 @@
+LAB 09 - WORKING WITH LISTS AND TUPLES
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - CREATING AND PRINTING A LIST
+================================
+
+Command:
+python3 lists_tuples.py
+
+Output:
+The list of fruits is: ['apple', 'banana', 'cherry', 'date', 'elderberry']
+
+================================
+TASK 2 - MODIFYING THE LIST
+================================
+
+Operations:
+1. append("fig")
+2. remove("date")
+3. sort()
+
+Output:
+After adding 'fig': ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+After removing 'date': ['apple', 'banana', 'cherry', 'elderberry', 'fig']
+The sorted list of fruits is: ['apple', 'banana', 'cherry', 'elderberry', 'fig']
+
+================================
+TASK 3 - DEMONSTRATING TUPLE IMMUTABILITY
+================================
+
+Output:
+The tuple is: ('apple', 'banana', 'cherry', 'elderberry', 'fig')
+TypeError caught: 'tuple' object does not support item assignment
+
+================================
+REQUIRED OUTPUT VERIFICATION
+================================
+
+TypeError found
+sorted list found
+
+Result:
+All three practical tasks completed successfully.
