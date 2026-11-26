@@ -1,0 +1,58 @@
+LAB 08 - CREATING AND USING FUNCTIONS
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - SIMPLE FUNCTION
+================================
+
+Command:
+python3 functions.py
+(Task 1 version, before updating the file for Task 2)
+
+Output:
+Hello, Alice!
+Hello, Bob!
+
+================================
+TASK 2 - PARAMETERS AND RETURN VALUES
+================================
+
+Command:
+python3 functions.py
+
+Output:
+Hello, Alice!
+Hello, Bob!
+Hi, Carol!
+1 9
+
+================================
+FUNCTION IMPORT TEST
+================================
+
+Command:
+python3 -c 'import functions; print(functions.greet("X"))'
+
+Output:
+Hello, X!
+
+================================
+TASK 3 - FUNCTION MODULARITY
+================================
+
+Command:
+python3 modularity.py
+
+Output:
+900.0
+
+================================
+PYTHON SYNTAX VALIDATION
+================================
+
+Command:
+python3 -m py_compile functions.py modularity.py
+
+Result:
+Syntax validation passed.
