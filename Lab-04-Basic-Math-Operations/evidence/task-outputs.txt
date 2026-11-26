@@ -1,0 +1,29 @@
+LAB 4 - BASIC MATH OPERATIONS
+================================
+
+Python version:
+Python 3.12.3
+
+Test 1: Normal arithmetic (10 and 4)
+Enter the first number: Enter the second number: Sum: 14.0
+Difference: 6.0
+Product: 40.0
+Quotient: 2.5
+
+Test 2: Division by zero (5 and 0)
+Enter the first number: Enter the second number: Sum: 5.0
+Difference: 5.0
+Product: 0.0
+Quotient: Undefined (division by zero)
+
+Test 3: Non-numeric input
+Enter the first number: Error: please enter numeric values only.
+
+Test 4: Decimal input (7.5 and 2.5)
+Enter the first number: Enter the second number: Sum: 10.0
+Difference: 5.0
+Product: 18.75
+Quotient: 3.0
+
+Test 5: Python syntax check
+Syntax check passed
