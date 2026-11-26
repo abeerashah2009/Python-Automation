@@ -1,0 +1,35 @@
+LAB 6 - LOOPING WITH FOR
+========================
+
+Python version:
+Python 3.12.3
+
+Task 1 - Numbers from 1 to 5:
+1
+2
+3
+4
+5
+
+Task 2 - Fruits:
+apple
+banana
+cherry
+date
+
+Optional - enumerate():
+1 apple
+2 banana
+
+Task 3 - Item summary:
+apple
+banana
+cherry
+date
+Total number of items processed: 4
+
+Total output lines:
+14
+
+Syntax check:
+Syntax check passed
