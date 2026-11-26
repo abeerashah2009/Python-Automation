@@ -1,0 +1,79 @@
+LAB 07 - LOOPING WITH WHILE
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - COUNT FROM 1 TO 5
+================================
+
+Command:
+python3 count.py
+
+Output:
+1
+2
+3
+4
+5
+
+================================
+TASK 2 - EXIT CONDITION
+================================
+
+Command:
+printf 'a\nb\nexit\n' | python3 while_loop.py
+(Initial Task 2 version, before adding finally)
+
+Output:
+Enter a string (type 'exit' to quit): You entered: a
+Enter a string (type 'exit' to quit): You entered: b
+Enter a string (type 'exit' to quit):
+
+================================
+TASK 2 - EOFERROR HANDLING
+================================
+
+Command:
+printf 'a\n' | python3 while_loop.py
+(Initial Task 2 version, before adding finally)
+
+Output:
+Enter a string (type 'exit' to quit): You entered: a
+Enter a string (type 'exit' to quit):
+Input ended.
+
+================================
+TASK 3 - GRACEFUL TERMINATION
+================================
+
+Command:
+printf 'a\nb\nexit\n' | python3 while_loop.py
+
+Output:
+Enter a string (type 'exit' to quit): You entered: a
+Enter a string (type 'exit' to quit): You entered: b
+Enter a string (type 'exit' to quit): Exiting the loop. Goodbye!
+Program terminated successfully.
+
+================================
+TASK 3 - EOFERROR WITH FINALLY
+================================
+
+Command:
+printf 'a\n' | python3 while_loop.py
+
+Output:
+Enter a string (type 'exit' to quit): You entered: a
+Enter a string (type 'exit' to quit):
+Input ended.
+Program terminated successfully.
+
+================================
+PYTHON SYNTAX VALIDATION
+================================
+
+Command:
+python3 -m py_compile count.py while_loop.py
+
+Result:
+Syntax validation passed.
