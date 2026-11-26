@@ -1,0 +1,27 @@
+LAB 2 - HELLO WORLD SCRIPT
+===========================
+
+Ubuntu Version:
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+
+Python Version:
+Python 3.12.3
+
+Nano Version:
+ GNU nano, version 7.2
+
+Working Directory:
+/home/ubuntu/Python-Automation/Lab-02-Hello-World-Script
+
+Script Content:
+# This is a simple Python script
+print("Hello, World!")
+
+Script Execution:
+Hello, World!
+
+Exact Output Verification:
+Hello, World!
+
+Syntax Verification:
+Python syntax OK
