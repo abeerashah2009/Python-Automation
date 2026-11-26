@@ -1,0 +1,26 @@
+LAB 1 - INSTALLING AND SETTING UP PYTHON
+========================================
+
+Ubuntu Version:
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+
+Python 3 Version:
+Python 3.12.3
+
+Python Command:
+Python 3.12.3
+
+Nano Editor:
+ GNU nano, version 7.2
+
+Virtual Environment pip:
+pip 24.0 from /home/ubuntu/lab/venv/lib/python3.12/site-packages/pip (python 3.12)
+
+Virtual Environment Check:
+True
+
+First Python Script:
+Hello from Python
+
+Virtual Environment Script:
+Running in: /home/ubuntu/lab/venv
