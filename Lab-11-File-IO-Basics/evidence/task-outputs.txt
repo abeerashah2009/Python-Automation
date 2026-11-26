@@ -1,0 +1,52 @@
+LAB 11 - FILE I/O BASICS
+Environment: Ubuntu 24.04 LTS
+Python Version: 3.12.3
+
+================================
+TASK 1 - CREATE AND WRITE
+================================
+
+Command:
+python3 file_io.py
+
+File content:
+Hello, World!
+This is a test of file I/O.
+
+Line count:
+2
+
+================================
+TASK 2 - APPEND TEXT
+================================
+
+File content:
+Hello, World!
+This is a test of file I/O.
+Appending new text.
+
+Line count:
+3
+
+================================
+TASK 3 - READ FILE CONTENTS
+================================
+
+Command:
+python3 file_io.py
+
+Output:
+Hello, World!
+This is a test of file I/O.
+Appending new text.
+
+================================
+FINAL VERIFICATION
+================================
+
+Python syntax check: PASSED
+File creation: PASSED
+Write operation: PASSED
+Append operation: PASSED
+Read operation: PASSED
+Final line count: 3
