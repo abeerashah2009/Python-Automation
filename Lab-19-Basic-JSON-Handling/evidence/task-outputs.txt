@@ -1,0 +1,28 @@
+======================================
+LAB 19 - BASIC JSON HANDLING
+======================================
+
+Environment:
+Python 3.12.3
+Requests: 2.32.3
+
+TASK 1 - API REQUEST
+Data Retrieved Successfully! Status code: 200
+
+TASK 2 - JSON TO PYTHON DICTIONARY
+{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+<class 'dict'>
+
+TASK 3 - SAVE JSON FILE
+Data saved to post_info.json
+
+SAVED JSON CONTENT:
+{
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+TASK 4 - JSON VALIDATION
+JSON validation passed!
+
+PYTHON SYNTAX CHECK
+Syntax check passed.
