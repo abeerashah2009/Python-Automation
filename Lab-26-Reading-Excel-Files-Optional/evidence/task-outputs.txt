@@ -1,0 +1,36 @@
+LAB 26 - READING EXCEL FILES
+============================
+
+Python version:
+Python 3.12.3
+
+Openpyxl package details:
+Name: openpyxl
+Version: 3.1.5
+Summary: A Python library to read/write Excel 2010 xlsx/xlsm files
+Home-page: https://openpyxl.readthedocs.io
+Author: See AUTHORS
+Author-email: charlie.clark@clark-consulting.eu
+License: MIT
+Location: /home/ubuntu/Python-Automation/Lab-26-Reading-Excel-Files-Optional/venv/lib/python3.12/site-packages
+Requires: et-xmlfile
+Required-by:
+
+Workbook creation:
+sample.xlsx created successfully
+      552  2026-11-27 10:43   xl/workbook.xml
+      507  2026-11-27 10:43   xl/_rels/workbook.xml.rels
+
+Excel reading and cell iteration:
+Sheet name: Sales
+The value in cell A1 is: Item
+('Item', 'Quantity', 'Region')
+('Apples', 10, 'North')
+The sum of values in column B is: 42
+
+Formula handling:
+=SUM(A1:A2)
+None
+
+Python syntax checks:
+Passed
