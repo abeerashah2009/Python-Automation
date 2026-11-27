@@ -1,0 +1,33 @@
+LAB 23 - MULTI-THREADING BASICS
+================================
+
+Python version:
+Python 3.12.3
+
+Python executable:
+/usr/bin/python3
+
+Thread script syntax:
+Passed
+
+Sequential script syntax:
+Passed
+
+Threaded count:
+10
+
+Sequential count:
+10
+
+Threaded execution output:
+Thread 1 count: 1
+Thread 2 count: 1
+Thread 1 count: 2
+Thread 2 count: 2
+Thread 1 count: 3
+Thread 2 count: 3
+Thread 1 count: 4
+Thread 2 count: 4
+Thread 2 count: 5
+Thread 1 count: 5
+Both threads have completed execution.
