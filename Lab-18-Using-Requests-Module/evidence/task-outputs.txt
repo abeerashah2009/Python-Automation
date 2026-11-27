@@ -1,0 +1,21 @@
+LAB 18 - USING THE REQUESTS MODULE
+Environment: Ubuntu 24.04 LTS
+Python 3.12.3
+
+Requests version:
+2.32.3
+
+Python syntax verification:
+Syntax check passed.
+
+SUCCESSFUL API REQUEST:
+Request was successful!
+Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+Body: quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+
+404 ERROR HANDLING:
+Request failed with status code: 404
+Exit code: 1
