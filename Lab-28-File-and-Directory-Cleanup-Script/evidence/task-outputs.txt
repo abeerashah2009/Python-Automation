@@ -1,0 +1,39 @@
+Lab 28 - File and Directory Cleanup Script
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+Task 1 - Test Data
+Created three old files with 40-day-old timestamps:
+- old1.log
+- old2.log
+- old3.txt
+
+Created two recent files:
+- recent1.txt
+- recent2.txt
+
+Task 2 - Script Validation
+- Python syntax check: Passed
+- Command-line help: Passed
+
+Task 3 - Dry Run
+- Identified exactly 3 old files.
+- Did not delete any files.
+- All five test files remained present.
+
+Task 4 - Safety Check
+- Attempted to use /tmp.
+- Script correctly rejected the unsafe directory.
+
+Task 5 - Actual Cleanup
+- Used the --apply option.
+- Deleted exactly 3 old files.
+- Preserved recent1.txt and recent2.txt.
+
+Task 6 - Logging
+- Cleanup log created at ~/FileCleanupLab/cleanup_log.txt.
+- Deletion log entries: 3
+- Verified using grep -c 'Deleted:'.
+
+Result
+All cleanup, safety, and logging checks passed.
