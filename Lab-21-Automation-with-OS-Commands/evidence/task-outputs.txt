@@ -1,0 +1,39 @@
+LAB 21 - AUTOMATION WITH OS COMMANDS
+====================================
+
+TASK 1 - COMMAND ARGUMENTS
+Standard Output:
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Nov 27 09:43 a.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Nov 27 09:43 b.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Nov 27 09:43 c.log
+
+Standard Error (if any):
+
+
+TASK 2 - CAPTURED OUTPUT
+Standard Output:
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Nov 27 09:43 a.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Nov 27 09:43 b.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Nov 27 09:43 c.log
+
+Standard Error (if any):
+
+
+TASK 3.1 - SHELL EXIT CODES
+Existing directory exit code: 0
+Missing directory exit code: 2
+
+TASK 3.2.1 - PYTHON EXIT CODE
+Command failed with exit code: 2
+stderr: ls: cannot access '/nonexistent': No such file or directory
+
+TASK 3.2.2 - ERROR HANDLING
+Non-zero exit: 1
+Command not found: [Errno 2] No such file or directory: 'false_command'
+Timed out after 0.9999851000000035 second(s)
+Error handling script exit status: 3
+
+PYTHON SYNTAX CHECKS
+All Python syntax checks passed.
