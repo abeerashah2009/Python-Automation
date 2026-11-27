@@ -1,0 +1,83 @@
+LAB 13 - COMMAND-LINE ARGUMENTS
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - SYS.ARGV
+================================
+Command:
+python3 sys_args_demo.py hello 42 world
+
+Result:
+Number of arguments: 4
+Argument 0: sys_args_demo.py
+Argument 1: hello
+Argument 2: 42
+Argument 3: world
+
+================================
+TASK 2 - NO ARGUMENTS
+================================
+Command:
+python3 sys_args_demo.py
+
+Result:
+No command-line arguments provided.
+
+================================
+TASK 3 - ARGPARSE
+================================
+Command:
+python3 args_demo.py John --age 30
+
+Result:
+Name: John
+Age: 30
+
+================================
+DEFAULT AGE
+================================
+Command:
+python3 args_demo.py John
+
+Result:
+Name: John
+Age: 25
+
+================================
+INVALID AGE
+================================
+Command:
+python3 args_demo.py John --age abc
+
+Result:
+Invalid integer value.
+Exit code: 2
+
+================================
+MISSING NAME
+================================
+Command:
+python3 args_demo.py
+
+Result:
+Required name argument missing.
+Exit code: 2
+
+================================
+HELP
+================================
+Command:
+python3 args_demo.py --help
+
+Result:
+Automatic help displayed successfully.
+
+================================
+FINAL VERIFICATION
+================================
+Python syntax check: Passed
+sys.argv tests: Passed
+argparse tests: Passed
+Default value test: Passed
+Help test: Passed
