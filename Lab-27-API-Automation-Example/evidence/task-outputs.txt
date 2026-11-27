@@ -1,0 +1,50 @@
+Lab 27 - API Automation Example
+================================
+
+Environment
+-----------
+Python: 3.12
+Requests: 2.32.3
+Endpoint: https://httpbin.org/post
+Method: POST
+
+Task 1 - Local Data
+-------------------
+Created api_automation_example.py.
+Data fields:
+name: John Doe
+email: john.doe@example.com
+age: 30
+
+Initial script check:
+script OK
+
+Task 2 - POST Request
+---------------------
+Request: requests.post(url, json=user_data, timeout=10)
+Status code: 200
+
+SSL configuration:
+REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+SSL verification remained enabled.
+
+Task 3 - JSON Response
+----------------------
+Request was successful!
+
+Extracted Data:
+age: 30
+email: john.doe@example.com
+name: John Doe
+
+The API returned the submitted JSON data successfully.
+
+Curl Comparison
+---------------
+A POST request using curl was successful.
+The response showed HTTP method POST and the expected endpoint.
+
+Python Syntax Check
+-------------------
+python3 -m py_compile api_automation_example.py
+Python syntax check passed.
