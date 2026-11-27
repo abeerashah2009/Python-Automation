@@ -1,0 +1,47 @@
+LAB 17 - WRITING CSV FILES
+Environment: Ubuntu 24.04 LTS
+Python Version:
+Python 3.12.3
+
+================================
+TASK 1 - PYTHON SCRIPT CHECK
+================================
+Python syntax check passed.
+
+================================
+TASK 2 - CSV FILE GENERATION
+================================
+-rw-rw-r-- 1 ubuntu ubuntu  76 Nov 27 02:48 people.csv
+-rw-rw-r-- 1 ubuntu ubuntu  76 Nov 27 02:48 people_dict.csv
+-rw-rw-r-- 1 ubuntu ubuntu 853 Nov 27 02:47 write_csv.py
+
+================================
+TASK 3 - CSV CONTENT
+================================
+Name,Age,City
+Alice,28,New York
+Bob,34,Chicago
+Charlie,22,San Francisco
+
+================================
+TASK 4 - FORMATTED CSV OUTPUT
+================================
+Name     Age  City
+Alice    28   New York
+Bob      34   Chicago
+Charlie  22   San Francisco
+
+================================
+TASK 5 - ROW VERIFICATION
+================================
+Alice row found
+
+================================
+TASK 6 - CSV ROW COUNT
+================================
+Total rows: 4
+
+================================
+TASK 7 - FILE COMPARISON
+================================
+Both CSV files are identical
