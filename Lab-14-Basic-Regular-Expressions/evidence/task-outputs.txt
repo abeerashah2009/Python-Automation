@@ -1,0 +1,77 @@
+LAB 14 - BASIC REGULAR EXPRESSIONS
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - PYTHON VERSION
+================================
+Command:
+python3 --version
+
+Result:
+Python 3.12.3
+
+================================
+TASK 2 - PHONE NUMBER EXTRACTION
+================================
+Command:
+python3 phone_finder.py contacts.txt
+
+Result:
+Phone numbers found:
+(123) 456-7890
+987-654-3210
+123.456.7890
+
+================================
+TASK 3 - NO MATCHES
+================================
+Command:
+python3 phone_finder.py empty.txt
+
+Result:
+No phone numbers found.
+
+================================
+CASE STUDY - CUSTOMER RECORDS
+================================
+Command:
+python3 phone_finder.py customers.txt
+
+Result:
+Phone numbers found:
+(555) 010-2030
+555-010-2031
+
+================================
+ERROR HANDLING
+================================
+Command:
+python3 phone_finder.py missing.txt
+
+Result:
+FileNotFoundError
+
+================================
+ADDITIONAL VALIDATION
+================================
+Missing filename:
+Usage message displayed.
+Exit code: 1
+
+Unbalanced opening parenthesis:
+No phone numbers found.
+
+Unbalanced closing parenthesis:
+No phone numbers found.
+
+Long digit string:
+No phone numbers found.
+
+================================
+FINAL VERIFICATION
+================================
+Python syntax compilation: Passed
+Regex matching: Passed
+No-match handling: Passed
+Customer records test: Passed
