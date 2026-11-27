@@ -1,0 +1,35 @@
+Lab 29 - Data Manipulation with pandas (Optional)
+
+Environment
+- OS: Ubuntu 24.04
+- Python: 3.12.3
+- pandas: 2.2.3
+- Virtual environment: Active
+- pip: 24.0
+
+Task 1 - Environment Setup
+- Installed python3-venv.
+- Created and activated a virtual environment.
+- Installed pandas 2.2.3.
+- Verified pandas import and version.
+
+Task 2 - Reading CSV
+- Created employees.csv with 10 employee records.
+- CSV line count: 11 including header.
+- Loaded CSV into a pandas DataFrame.
+- Verified the first five rows using head().
+
+Task 3 - Filtering Rows
+- Filter condition: Age > 30.
+- Original records: 10.
+- Filtered records: 6.
+- Verified the filtered employee records.
+
+Task 4 - Saving Filtered CSV
+- Saved results to filtered_data.csv.
+- Used index=False to exclude DataFrame index.
+- Output CSV line count: 7 including header.
+- Rows with age 30 or below: 0.
+
+Result
+All four lab tasks and output verification checks passed.
