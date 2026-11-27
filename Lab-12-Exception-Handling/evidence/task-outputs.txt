@@ -1,0 +1,29 @@
+LAB 12 - EXCEPTION HANDLING IN PYTHON
+Environment: Ubuntu 24.04
+Python: 3.12.3
+
+================================
+TASK 1 - BASIC DIVISION
+================================
+Input: 4
+Output: Result: 25.0
+
+================================
+TASK 2 - ZERO DIVISION HANDLING
+================================
+Input: 0
+Output: Error: Cannot divide by zero!
+
+================================
+TASK 3 - VALUE ERROR HANDLING
+================================
+Input: abc
+Output: Error: Please enter a valid number!
+
+================================
+FINAL VERIFICATION
+================================
+Python syntax check: Passed
+ZeroDivisionError test: Passed
+ValueError test: Passed
+Valid division test: Passed
