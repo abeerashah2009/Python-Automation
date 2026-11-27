@@ -1,0 +1,44 @@
+LAB 20 - SENDING EMAILS WITH SMTPLIB
+Environment: Ubuntu 24.04 LTS
+Python: 3.12.3
+aiosmtpd: 1.4.6
+
+========================================
+TASK 1 - SMTP SERVER
+========================================
+SMTP Host: 127.0.0.1
+SMTP Port: 1025
+Server listening check: PASSED
+
+========================================
+TASK 2 - EMAIL SCRIPT
+========================================
+Script: send_mail.py
+Syntax check: PASSED
+Command: python send_mail.py
+Result: Email sent successfully via port 1025!
+
+========================================
+TASK 3 - EMAIL VERIFICATION
+========================================
+Subject: Test Email Subject
+From: sender@example.com
+To: recipient@example.com
+Body: This is a test email sent from a Python script.
+SMTP message capture: PASSED
+
+========================================
+TASK 4 - ERROR HANDLING
+========================================
+Test port: 9999
+Result: Connection unexpectedly closed: timed out
+Exception handled successfully using try-except.
+
+========================================
+FINAL RESULT
+========================================
+Python syntax: PASSED
+SMTP server: PASSED
+Email sending: PASSED
+Email capture: PASSED
+Error handling: PASSED
