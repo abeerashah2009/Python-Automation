@@ -1,0 +1,70 @@
+LAB 15 - DATE AND TIME OPERATIONS
+Environment: Ubuntu 24.04
+Python Version: 3.12.3
+Module: datetime
+
+================================
+TASK 1 - CURRENT DATE AND TIME
+================================
+
+Code:
+datetime.now()
+datetime.now(timezone.utc)
+
+Result:
+Local date and time retrieved successfully.
+UTC date and time retrieved successfully.
+UTC timezone offset: +00:00
+
+================================
+TASK 2 - DATE CALCULATIONS
+================================
+
+Fixed date:
+2026-01-15 10:30:00
+
+Operations:
+Yesterday = fixed - timedelta(days=1)
+Next week = fixed + timedelta(weeks=1)
+
+Result:
+Yesterday's date: 2026-01-14 10:30:00
+Next week's date: 2026-01-22 10:30:00
+
+Assertions:
+Assertions passed
+
+================================
+TASK 3 - DATE FORMATTING
+================================
+
+Format:
+%Y-%m-%d %H:%M:%S
+
+Result:
+Formatted date and time: 2026-01-15 10:30:00
+
+Verification:
+Formatting assertion passed
+
+================================
+FINAL VERIFICATION
+================================
+
+Python version: 3.12.3
+Python syntax compilation: Passed
+Current local date/time: Passed
+Current UTC date/time: Passed
+Yesterday calculation: Passed
+Next week calculation: Passed
+Date formatting: Passed
+Date calculation assertions: Passed
+Formatting assertion: Passed
+
+================================
+LEARNING OUTCOME
+================================
+
+Learned to retrieve current local and UTC date/time,
+perform date calculations using timedelta, and format
+datetime objects using strftime().
