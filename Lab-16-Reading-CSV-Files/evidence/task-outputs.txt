@@ -1,0 +1,23 @@
+LAB 16 - READING CSV FILES
+Environment: Ubuntu 24.04
+
+PYTHON VERSION
+Python 3.12.3
+
+PYTHON COMPILATION
+Python compilation successful.
+
+CSV READING AND SUMMARY OUTPUT
+Name: Alice, Age: 30, Occupation: Engineer
+Name: Bob, Age: 25, Occupation: Data Scientist
+Name: Eve, Age: 35, Occupation: Designer
+Total number of entries: 3
+Total age combined: 90
+Average age: 30.00
+
+INDEPENDENT AWK VERIFICATION
+Entries: 3 Total: 90 Average: 30
+
+FILE VERIFICATION
+Python script exists.
+CSV file exists.
