@@ -1,0 +1,48 @@
+LAB 25 - CREATING A SIMPLE CLI WITH ARGPARSE
+=============================================
+
+Python version:
+Python 3.12.3
+
+Python syntax check:
+Passed
+
+Basic CLI test:
+Verbose mode is activated.
+Processing file: example.txt
+Timeout: 30
+
+Valid level test:
+Level set to: 2
+Timeout: 30
+
+Invalid level test (expected exit code 2):
+usage: cli_example.py [-h] [--verbose] [--file FILE] [--level {1,2,3}]
+                      [--timeout TIMEOUT]
+cli_example.py: error: argument --level: invalid choice: 5 (choose from 1, 2, 3)
+Exit code: 2
+
+Default timeout:
+Timeout: 30
+
+Custom timeout:
+Timeout: 10
+
+Combined options:
+Verbose mode is activated.
+Processing file: example.txt
+Level set to: 3
+Timeout: 5
+
+CLI help:
+usage: cli_example.py [-h] [--verbose] [--file FILE] [--level {1,2,3}]
+                      [--timeout TIMEOUT]
+
+A simple CLI example
+
+options:
+  -h, --help         show this help message and exit
+  --verbose          Enable verbose output
+  --file FILE        File path to process
+  --level {1,2,3}    Set the level of operation
+  --timeout TIMEOUT  Timeout duration in seconds
