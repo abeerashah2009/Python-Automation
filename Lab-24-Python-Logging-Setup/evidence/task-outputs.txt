@@ -1,0 +1,23 @@
+LAB 24 - PYTHON LOGGING SETUP
+==============================
+
+Python version:
+Python 3.12.3
+
+Python syntax check:
+Passed
+
+Logger configuration:
+logging.basicConfig(filename='app.log', filemode='w',
+
+Log file contents:
+2026-11-27 10:21:19,711 - DEBUG - This is a DEBUG message
+2026-11-27 10:21:19,711 - INFO - This is an INFO message
+2026-11-27 10:21:19,711 - WARNING - This is a WARNING message
+2026-11-27 10:21:19,711 - ERROR - This is an ERROR message
+
+ERROR message count:
+1
+
+Total log messages:
+4
